@@ -55,8 +55,8 @@
 <style>
   .theme-toggle {
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: row;
+    gap: 0.25rem;
     align-items: flex-start;
     margin-bottom: 1.5rem;
   }
