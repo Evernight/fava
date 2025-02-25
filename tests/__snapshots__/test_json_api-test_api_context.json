@@ -97,7 +97,7 @@
     "links": [],
     "meta": {
       "filename": "TEST_DATA_DIR/long-example.beancount",
-      "lineno": 3737
+      "lineno": 3736
     },
     "narration": "Investing 40% of cash in VBMPX",
     "payee": "",
@@ -107,7 +107,7 @@
         "amount": "15.957 VBMPX {30.08 USD, 2016-05-09}",
         "meta": {
           "filename": "TEST_DATA_DIR/long-example.beancount",
-          "lineno": 3738
+          "lineno": 3737
         }
       },
       {
@@ -115,7 +115,7 @@
         "amount": "-479.99 USD",
         "meta": {
           "filename": "TEST_DATA_DIR/long-example.beancount",
-          "lineno": 3739
+          "lineno": 3738
         }
       }
     ],

@@ -5,7 +5,7 @@
     "entry_hash": "ENTRY_HASH",
     "meta": {
       "filename": "TEST_DATA_DIR/long-example.beancount",
-      "lineno": 3767
+      "lineno": 3766
     },
     "t": "Event",
     "type": "employer"
