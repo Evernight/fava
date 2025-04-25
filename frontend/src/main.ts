@@ -136,7 +136,6 @@ function init(): void {
 
   router.trigger("page-loaded");
 
-
   const storedTheme = localStorage.getItem("theme") ?? "auto";
   if (storedTheme === "auto") {
     document.documentElement.removeAttribute("data-theme");
