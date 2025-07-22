@@ -16,7 +16,7 @@
   <div class="filter-group">
     <span class="filter-presets-label">🕒</span>
     <!-- eslint-disable-next-line @typescript-eslint/no-unused-vars -->
-    {#each time_presets as [_, value, label], index}
+    {#each time_presets as [_, value, label], index (value)}
       {#if index > 0}
         <span class="separator">·</span>
       {/if}
@@ -27,7 +27,7 @@
   <div class="filter-group">
     <span class="filter-presets-label">🎚</span>
     <!-- eslint-disable-next-line @typescript-eslint/no-unused-vars -->
-    {#each advanced_presets as [_, value, label], index}
+    {#each advanced_presets as [_, value, label], index (value)}
       {#if index > 0}
         <span class="separator">·</span>
       {/if}

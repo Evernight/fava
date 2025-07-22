@@ -33,18 +33,23 @@
   }
 </script>
 
-<a href="#adv" onclick={setAdvancedFilter} class:active={isActive}>{label}</a>
+<a
+  href="#adv"
+  onclick={setAdvancedFilter}
+  class={{ "filter-preset": true, active: isActive }}>{label}</a
+>
 
 <style>
-  a:link {
+  a:link.filter-preset,
+  a:visited.filter-preset {
     color: #66c4ff;
   }
 
-  a:link:hover {
+  a:link:hover.filter-preset {
     color: #737373;
   }
 
-  a.active {
+  a.active.filter-preset {
     font-weight: bold;
     text-decoration: underline;
   }
